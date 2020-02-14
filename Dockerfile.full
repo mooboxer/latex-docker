@@ -1,4 +1,3 @@
-FROM mooboxer/latex:ctanbasic
-
+FROM mooboxer/latex-docker:latest
 
 RUN tlmgr install scheme-full
