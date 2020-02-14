@@ -1,4 +1,4 @@
-NS = blang
+NS = mooboxer
 REPO = latex
 IMAGE = $(NS)/$(REPO)
 
