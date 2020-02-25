@@ -27,3 +27,7 @@ WORKDIR /data
 RUN tlmgr install latexmk
 
 VOLUME ["/data"]
+
+USER jenkins
+
+RUN tlmgr install scheme-full
