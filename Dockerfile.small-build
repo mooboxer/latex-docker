@@ -28,6 +28,6 @@ RUN tlmgr install latexmk
 
 VOLUME ["/data"]
 
-RUN tlmgr install scheme-full
+#RUN tlmgr install scheme-full
 
 USER jenkins
